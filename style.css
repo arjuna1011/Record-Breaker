@@ -1,0 +1,45 @@
+.title{
+    border: solid black;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    font-family: 'Fredoka One','M PLUS Rounded 1c', sans-serif ;
+    color: greenyellow;
+    background-color: black;
+}
+body{
+    background-image: url(https://ak2.picdn.net/shutterstock/videos/12695882/thumb/1.jpg?ip=x480);
+    position: center center;
+    size: contain;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+}
+p{
+    background-color: black;
+    color: greenyellow;
+    margin: auto;
+    font-size: 2em;
+}
+section{
+    width: 800px;
+    height: 700px;
+    display: flex;
+    justify-items: center;
+    margin: auto;
+}
+a:link{
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: none;
+    color: aliceblue;
+}
+a:visited{
+    text-decoration: none;
+    color: rgb(0, 243, 20);
+}
+a:active{
+    text-decoration: none;
+}

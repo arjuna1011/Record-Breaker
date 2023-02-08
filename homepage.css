@@ -1,0 +1,88 @@
+body{
+    background-image: url(https://ak2.picdn.net/shutterstock/videos/12695882/thumb/1.jpg?ip=x480);
+    position: center center;
+    size: contain;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+}
+.record-image{
+    animation: rotation 6s infinite linear;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 0em;
+    transition:transform 0.25s ease;
+}
+@keyframes rotation { 
+    from {
+    transform: rotate(0deg);
+    }
+    to {
+    transform: rotate(359deg);
+    }
+}
+.title{
+    border: solid black;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    font-family: 'Fredoka One','M PLUS Rounded 1c', sans-serif ;
+    color: greenyellow;
+    background-color: black;
+}
+.left-side{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    min-width: 0;
+}
+.records-sold{
+    display: flex;
+    justify-content: center;
+    min-width: 0;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 1.5em;
+    color: greenyellow;
+}
+.records-rate{
+    display: flex;
+    order: 2;
+    justify-content: center;
+    min-width: 0;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 1.2em;
+    color: greenyellow;
+    padding-bottom: 5em;
+}
+img:hover {
+    -webkit-transform:scale(1.1); 
+    transform:scale(1.1);
+}
+.producer-row{
+    color: greenyellow;
+    list-style: none;
+    border: dotted;
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    list-style: none;
+}
+.right-side{
+    border: solid greenyellow;
+    width: 40em;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin: auto;
+    background-color: black;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+li{
+    display: flex;
+    padding: 0.2em;
+}
+button{
+    display: none;
+}
